@@ -1,0 +1,237 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+  text-decoration: none;
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.alldiv {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+  align-items: center;
+}
+
+.nav__list {
+  width: 100%;
+  margin: 0;
+}
+
+.nav__item {
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav__item > a {
+  color: #d2d0db;
+  transition: color 0.3s;
+}
+
+.nav__item > a:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+  }
+
+  .nav__item {
+    border: 0;
+  }
+}
+
+.imge {
+  width: 65px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.icon__img {
+  width: 950px;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.grid--div {
+  background-color: hsl(240, 100%, 5%);
+  width: 350px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.grid__h1 {
+  color: hsl(35, 77%, 62%);
+  font-family: "Inter";
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+.grid__h2 {
+  color: hsl(36, 100%, 99%);
+  font-family: "Inter";
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.grid__para1 {
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.h1---gridforFunding {
+  font-family: "Inter";
+  font-weight: 800;
+  padding-left: 10px;
+  font-size: 60px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.p__paraforweb {
+  font-family: "Inter";
+  font-weight: 400;
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  color: hsl(233, 8%, 79%);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 16px;
+  margin-left: 30px;
+}
+
+.feature {
+  gap: 4rem 2rem;
+}
+
+.feature__content {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
+}
+
+.div__readmore {
+  background-color: hsl(5, 85%, 63%);
+  width: 200px;
+  border: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.h1--span {
+  font-family: "Inter";
+  font-weight: 700;
+  padding: 10px;
+  color: hsl(36, 100%, 99%);
+}
+
+.all__web30 {
+  display: flex;
+}
+
+.pand--read {
+  display: inline-flex;
+}
+
+.first__hg {
+  display: flex;
+}
+
+.all__div24 {
+  display: block;
+}
+
+.h1__first {
+  color: hsl(233, 8%, 79%);
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.h2__first {
+  color: hsl(240, 100%, 5%);
+  font-family: "Inter";
+  font-weight: 700;
+  
+}
+
+.p__first {
+  color: hsl(236, 13%, 42%);
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.img__24 {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.img__24 {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.allof123 {
+  display: flex;
+}
+
+.hard--flex {
+  display: flex;
+}
+
+.learnmore {
+  background-color: hsl(5, 85%, 63%);
+  border: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  margin-top: 70px;
+  width: 200px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.readmore---btn {
+  font-family: "Inter";
+  font-weight: 700;
+  color: hsl(36, 100%, 99%);
+  padding: 10px;
+}
